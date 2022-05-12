@@ -1,25 +1,25 @@
 <template>
-  <div id="app">
-    <Map msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div id="app">
+        <MapProvince />
+    </div>
 </template>
 
 <script>
-import Map from './components/Map.vue'
+import MapProvince from "./components/MapProvince";
 
 export default {
-  name: 'App',
-  components: {
-    Map,
-  }
-}
+    name: "App",
+    components: {
+        MapProvince,
+    },
+};
 </script>
 
 <style>
 #app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 </style>
