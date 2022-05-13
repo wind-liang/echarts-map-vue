@@ -14,7 +14,6 @@ export default {
     },
     data() {
         return {
-            echartObj: null,
             option: {
                 series: [
                     {
@@ -24,8 +23,6 @@ export default {
                         data: [],
                     },
                 ],
-                provinceJSON: {},
-                provinceName: "",
             },
         };
     },

@@ -1,4 +1,6 @@
-# echart-map-vue
+# echarts-map-vue
+
+代码的相应解释参考：[https://zhuanlan.zhihu.com/p/513629308](https://zhuanlan.zhihu.com/p/513629308)
 
 ## Project setup
 
